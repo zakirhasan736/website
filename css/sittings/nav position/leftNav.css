@@ -1,0 +1,130 @@
+/* -----------------------------------
+	    Section Css
+----------------------------------- */
+.pt-about, 
+.pt-resume, 
+.pt-portfolio, 
+.pt-blog,
+.pt-contact {
+	-webkit-transform: translateX(200%) !important;
+	-ms-transform: translateX(200%) !important;
+	transform: translateX(200%) !important;
+	-moz-transform: translateX(200%) !important;
+	-o-transform: translateX(200%) !important;
+}
+#about:target .pt-about,
+#resume:target .pt-resume,
+#portfolio:target .pt-portfolio,
+#blog:target .pt-blog,
+#contact:target .pt-contact {
+	-webkit-transform: translateX(0%) !important;
+	-ms-transform: translateX(0%) !important;
+	transform: translateX(0%) !important;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#about:target .pt-about.alx-aside-menu_add,
+#resume:target .pt-resume.alx-aside-menu_add,
+#portfolio:target .pt-portfolio.alx-aside-menu_add,
+#blog:target .pt-blog.alx-aside-menu_add,
+#contact:target .pt-contact.alx-aside-menu_add {
+	-webkit-transform: translateX(11.11%) !important;
+	-ms-transform: translateX(11.11%) !important;
+	transform: translateX(11.11%) !important;
+    top: 0;
+    position: absolute;
+    width: 90%;
+    height: 100%;
+}
+.hum-burger {
+	width: 28px;
+	height: 20px;
+	cursor: pointer;
+	z-index: 2;
+	position: fixed;
+	left: 11%;
+	top: 9%;
+
+}
+.header-main {
+	transform: translateX(-100%);
+	transition: all 650ms ease 0s;
+
+}
+
+.header-main.show {
+	transform: translateX(0%);
+	transition: all 650ms ease 0s;
+
+
+}
+.overly-social-link {
+	right: 2.5%;
+	top: 27px;
+	transition: all 650ms ease 0s;
+}
+ul.copyright-cong {
+	right: 5%;
+	bottom: 40px;
+	transition: all 650ms ease 0s;
+}
+ul.setlanguage-sittings {
+	left: 11%;
+	bottom: 40px;
+	transition: all 650ms ease 0s;
+}
+.BlogPage-home .setlanguage-sittings {
+	top: 16%;
+	right: 5%;
+	left: unset;
+	transition: all 650ms ease 0s;
+}
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+      .header-mobile .mobile-menu {
+        right: 0;
+        padding: 40px 60px 54px 25px;
+        border-left: 3px solid #fff;
+        left: auto;
+        top: 0;
+      }
+
+    .overly-social-link {
+        right: 4.5%;
+        top: 52%;
+        transition: all 650ms ease 0s;
+    }
+    .share-pop {
+        left: 93.5%;
+    }
+
+  
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+  
+    .header-mobile .mobile-menu {
+        right: 0;
+        padding: 40px 60px 54px 18px;
+        border-left: 3px solid #fff;
+        left: auto;
+        top: 0;
+    }
+ 
+    .overly-social-link {
+        right: 4.5%;
+    }
+    .share-pop {
+        left: 89.5%;
+    }
+  
+  
+
+
+}

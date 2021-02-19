@@ -1,0 +1,397 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .my-working-process-shape-cont {
+        width: 342px;
+        display: block;
+        text-align: center;
+        left: 0;
+        right: 0;
+    }
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .shape-spiner-cont15 img {
+        width: 335px;
+    }
+
+    .my-working-process-shape-cont h1 {
+        top: 30%;
+    }
+
+    .my-working-process-shape-cont {
+        left: 7%;
+    }
+
+
+
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    #about:target .pt-about.alx-aside-menu_add,
+    #resume:target .pt-resume.alx-aside-menu_add,
+    #portfolio:target .pt-portfolio.alx-aside-menu_add,
+    #blog:target .pt-blog.alx-aside-menu_add,
+    #contact:target .pt-contact.alx-aside-menu_add {
+        -webkit-transform: translateX(0%) !important;
+        -ms-transform: translateX(0%) !important;
+        transform: translateX(0%) !important;
+        top: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .header-mobile {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 96px;
+        background: #0e0f10;
+        z-index: 90;
+        text-align: center;
+        box-shadow: 0 0 9px rgba(255,255,255,0.17);
+      }
+   
+      .header-mobile h2 {
+        font-size: 40px;
+        font-weight: 600;
+        color: #fff;
+        top: 24%;
+        display: block;
+        position: relative;
+        text-transform: uppercase;
+      }
+      .header-mobile .mobile-menu {
+        width: 35px;
+        height: 20px;
+        cursor: pointer;
+        z-index: 2;
+        position: absolute;
+        display: inline-block;
+      }
+      .header-main .logo {
+        padding: 22px 0;
+    }
+    .downloadCV.btn-st {
+        font-size: 15px;
+        top: 14px;
+    }
+    .avatar_workdec {
+        margin-left: 5px;
+    }
+    .avatar_workdec h5 {
+        font-size: 11px;
+    }
+    .avatar_workdec p {
+        font-size: 10px;
+    }
+    .avatar_work_details span {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .overly-social-link {
+        right: 4.5%;
+        top: 52%;
+        transition: all 650ms ease 0s;
+    }
+    .share-pop {
+        padding-top: 6px;
+        width: 35px;
+        height: 35px;
+        display: block;
+        border: 1px solid #fff;
+        border-radius: 30px;
+        text-align: center;
+        top: -24%;
+        position: relative;
+        color: #fff;
+    }
+    .overly-social-link .social-overly .social-link-list {
+        width: 30px;
+        height: 0px;
+        display: block;
+        text-align: center;
+        margin-top: 0px;
+        position: relative;
+        top: 160px;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 650ms ease 0s;
+    }
+    .overly-social-link .social-overly .social-link-list.open {
+        height: 30px;
+        margin-top: 5px;
+        top: 0px;
+        opacity: 1;
+        visibility: visible;
+        transition: all 650ms ease 0s;
+    }
+    
+    .about_poravatar {
+        top: 25px;
+    }
+    .shape-spiner-cont11 {
+        top: 15%;
+        left: 6%;
+    }
+    .shape-spiner-cont8 {
+        top: 54%;
+    }
+    .shape-spiner-cont4 {
+        width: 100%;
+        top: -55%;
+        right: -100%;
+    }
+    .shape-spiner-cont4 img {
+        width: 350px;
+    }
+    .myworking-process-content-items-condition-details {
+        padding: 20px 20px 30px 20px;
+        text-align: center;
+        margin: 0 0px 20px 0px;
+        border-radius: 7px;
+    }
+    .myworking-process-content::before {
+        content: "";
+        position: absolute;
+        top: 35%;
+        left: 43%;
+        width: 100px;
+        height: 100px;
+        background: #000;
+        z-index: -1;
+        border-radius: 20px;
+    }
+    .myworking-process-content::after {
+        position: absolute;
+        content: "Works";
+        width: 100px;
+        height: 100px;
+        top: 45%;
+        left: 46%;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .myworking-process-content {
+        background: none;
+        box-shadow: none;
+    }
+  
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+    #about:target .pt-about.alx-aside-menu_add,
+    #resume:target .pt-resume.alx-aside-menu_add,
+    #portfolio:target .pt-portfolio.alx-aside-menu_add,
+    #blog:target .pt-blog.alx-aside-menu_add,
+    #contact:target .pt-contact.alx-aside-menu_add {
+        -webkit-transform: translateX(0%) !important;
+        -ms-transform: translateX(0%) !important;
+        transform: translateX(0%) !important;
+        top: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .header-mobile {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 15%;
+        background: #0e0f10;
+        z-index: 90;
+        text-align: center;
+      }
+    
+      .header-mobile h2 {
+        font-size: 35px;
+        font-weight: 600;
+        color: #fff;
+        display: block;
+        top: 24%;
+        position: relative;
+        text-transform: uppercase;
+      }
+      .header-mobile .mobile-menu {
+        width: 35px;
+        height: 20px;
+        cursor: pointer;
+        z-index: 2;
+        position: absolute;
+        display: inline-block;
+        border-left: 3px solid #fff;
+      }
+      .header-main .logo {
+        padding: 22px 0;
+    }
+    .overly-social-link {
+        top: 52%;
+        transition: all 650ms ease 0s;
+    }
+    .share-pop {
+        padding-top: 6px;
+        width: 35px;
+        height: 35px;
+        display: block;
+        border: 1px solid #fff;
+        border-radius: 30px;
+        text-align: center;
+        top: -24%;
+        position: relative;
+        color: #fff;
+    }
+    .overly-social-link .social-overly .social-link-list {
+        width: 30px;
+        height: 0px;
+        display: block;
+        text-align: center;
+        margin-top: 0px;
+        position: relative;
+        left: 16%;
+        top: 160px;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 650ms ease 0s;
+    }
+    .overly-social-link .social-overly .social-link-list.open {
+        height: 30px;
+        margin-top: 5px;
+        top: 0px;
+        opacity: 1;
+        visibility: visible;
+        transition: all 650ms ease 0s;
+    }
+    .overly-middle-content .middle-text-title {
+        margin: 0 0 5px;
+        font-size: 55px;
+    }
+    .overly-middle-content .middle-text-subtitle {
+        font-size: 25px;
+        margin-left: -180px;
+    }
+    .header-main {
+        width: 25%;
+    }
+
+    .shape-spiner-cont3 {
+        display: none;
+    }
+    .about_details_dummy{
+        text-align: center;
+        margin: 0 0 35px;
+    }
+    .avatar_description {
+	font-size: 11px;
+	line-height: 20px;
+}
+.shape-spiner-cont6 {
+	display: none;
+}
+.shape-spiner-cont9 {
+	top: -17%;
+	left: -10%;
+}
+.page_title {
+	font-size: 28px;
+}
+.myservice-details h1 {
+	font-size: 18px;
+	margin: 25px 0 10px;
+}
+.shape-spiner-cont11 {
+	top: 45%;
+	left: 2%;
+}
+.shape-spiner-cont11 img {
+	width: 400px;
+}
+.myservice-details p {
+	font-size: 13px;
+	line-height: 23px;
+}
+.shape-spiner-cont7 {
+	display: none;
+}
+.testimonials-content-items {
+	padding: 14px 20px 9px;
+}
+.testimonials-textcomment-content p {
+	font-size: 12px;
+	line-height: 22px;
+}
+.testimonials-user-details {
+	margin: 14px 0 0 12px;
+}
+.testimonials-user-details h1 {
+	font-size: 16px;
+}
+.testimonials-user-details h4 {
+	font-size: 14px;
+}
+.tesimonials-user-review ul li {
+	font-size: 14px;
+}
+.shape-spiner-cont13 img {
+	width: 170px !important;
+}
+.shape-spiner-cont4 {
+	display: none;
+}
+.shape-spiner-cont5 img {
+	width: 380px;
+}
+.progress-circe-card {
+	justify-content: center;
+	display: flex;
+    margin-bottom: 10px;
+}
+.myskils-content-progressbar-item1 .skills {
+	width: 100%;
+	padding: 0;
+}
+.myworking-process-content-items-condition-details {
+    padding: 20px 20px 30px 20px;
+    text-align: center;
+    margin: 0 0px 20px 0px;
+    border-radius: 7px;
+}
+.form-group .form-control {
+	padding: 12px 20px 12px 10px;
+}
+.comments-reply-box {
+	padding: 25px 10px 15px 7px;
+}
+.comentreply-dec {
+	margin-left: 8px;
+}
+.comentreply-dec p {
+	font-size: 12px;
+	line-height: 22px;
+}
+.singleblogs-hero-title h2 {
+	font-size: 25px;
+}
+.singlblogs-meta li a {
+	font-size: 9px;
+	line-height: 19px;
+}
+.search-form .form-control {
+	padding-left: 42px;
+}.popbox-section .filter span {
+	padding: 9px 7px;
+	font-size: 8px;
+	margin: 0 2px 0;
+}
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {}

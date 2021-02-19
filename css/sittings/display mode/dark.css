@@ -1,0 +1,35 @@
+
+.pt-about, 
+.pt-resume, 
+.pt-portfolio, 
+.pt-blog,
+.pt-contact {
+	background-color: #0e0f10;
+}
+.myworking-process-content-items-condition-details,
+.comments-reply-box.comment-bg,
+.coment-box-item a,
+.tags-sc ul li:hover,
+.blogs-content .btn-st::before,
+.slide-hudaport-bg::before,
+.myworking-process-content,
+.myskils-content-items,
+.myresume-content-item,
+.blogs-section-content-items,
+.ccontact-section-form,
+.pricing-content-details,
+.testimonials-content-items,
+.myservices-content,
+.myinterest-content,
+.about_dtails_section {
+	background-color: #070708;
+}
+
+.archive-sc ul li,
+.catagory-sec ul li,
+.blogs-pageMain{
+	border-color: #070708;
+}
+.page_title {
+	color: #fff;
+}

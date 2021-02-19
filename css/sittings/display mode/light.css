@@ -1,0 +1,97 @@
+.blogs-mainpage-section,
+.singleblogs-page-main,
+.pring-details-head span::after,
+.pt-about, 
+.pt-resume, 
+.pt-portfolio, 
+.pt-blog,
+.pt-contact {
+	background-color: #fdfcfc !important;
+}
+.archive-sc ul li a,
+.recent-newsdetails h5,
+.recent-newsdetails h4,
+.catagory-sec ul li a,
+ul.pointer li::before,
+.sidebarWid-title,
+.search-form .form-group .form-control,
+.pagination-item li a,
+.blogs-content .btn-st,
+.blogs-content p,
+.blogs-content h2,
+.blog-metatags li a,
+.singlepost-dec p,
+.singlblogs-meta li a,
+.singleblogs-hero-title h2,
+.progree-circle-number h2,
+.progree-circle-number h2 span,
+.pring-details-head span,
+.interest-cont-item:hover .interest-cont-item-right h1,
+.page_title{
+	color: #2d2c40;
+}
+.archive-sc ul li:hover:before, 
+.sidebarWid-title::before,
+ul.pointer li:hover::before,
+.spanExtra::before, 
+.spanExtra::after, 
+.myresume-content-details::before,
+ .myresume-content-details:hover::after,
+.skills-content .skill-box .skill-bar,
+.btn-st::before,
+.hum-burger span, 
+.hum-burger span::after,
+ .hum-burger span::before{
+	background-color: #fbba42  !important;
+}
+.pagination-item li.active,
+.comments-reply-box,
+blockquote,
+.ccontact-section-form,
+.blogs-section-content-items,
+.myworking-process-content,
+.myskils-content-items,
+.myresume-content-item,
+.pricing-content-details,
+.testimonials-content-items,
+.myservices-item-content,
+.interest-cont-item-right::before ,
+.interest-cont-item:hover,
+.myinterest-content,
+.about_dtails_section{
+	background-color: #2d2c40 !important;
+}
+.archive-sc ul li,
+.archive-sc ul li::before, 
+.catagory-sec ul li,
+ul.pointer li::before,
+.search-form .form-group .form-control,
+.blogs-pageMain,
+.bfr::before,
+.blogs-item-footer,
+.myresume-content-details::after,
+.pring-details-head span::before, 
+.pring-details-head{
+	border-color: #fbba42;
+}
+.archive-sc ul li:hover a,
+label a{
+	color: #fbba42;
+}
+.interest-cont-item,
+.comments-reply-box.comment-bg,
+.myservices-logo-cont span::after{
+	background-color: #0e0f10 !important;
+}
+.shape-spiner-cont13 {
+	opacity: .3;
+}
+.progress-circe-card:nth-child(1) .progress-circle-percent svg circle:nth-child(2) {
+    stroke-dashoffset: 70;
+    stroke: #fbba42 !important;
+}
+.pagination-item li.active a,
+.btn-st:hover,
+.interest-cont-item-right h1{
+	color: #fff !important;
+}

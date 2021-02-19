@@ -1,0 +1,54 @@
+.horizonsty::before {
+	content: "";
+	position: absolute;
+	width: 50%;
+	left: -83px;
+	top: -90px;
+	background-color: #070708;
+	height: 50%;
+	transform: rotate(228deg);
+	border-radius: 0;
+}
+.horizonsty::after {
+	content: "";
+	position: absolute;
+	width: 50%;
+	right: -83px;
+	bottom: -90px;
+	background-color: #070708;
+	height: 50%;
+	transform: rotate(-228deg);
+	border-radius: 0;
+}
+.horizonstyup::before {
+	content: "";
+	position: absolute;
+	width: 12%;
+	left: -79px;
+	top: 1px;
+	background-color: #0e0f10;
+	height: 5%;
+	transform: rotate(135deg);
+	border-radius: 0;
+}
+.horizonstyup::after {
+	content: "";
+	position: absolute;
+	width: 12%;
+	right: -79px;
+	bottom: 1px;
+	background-color: #0e0f10;
+	height: 5%;
+	transform: rotate(135deg);
+	border-radius: 0;
+}
+.horizonstyup,
+.horizonsty{
+    overflow: hidden;
+}
+.circleStyimg{
+    border-radius: unset;
+   }
+   .circlesty {
+    border-radius: unset;
+}

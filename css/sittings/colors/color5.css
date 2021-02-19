@@ -1,0 +1,86 @@
+.archive-sc ul li::before,
+ul.pointer li::before,
+.form-group .form-control,
+.header-page span:before,
+.header-page span:after,
+.header-box:before,
+.header-box:before ,
+ .skill-box .skill-bar .skill-bar-in::before ,
+.myresume-content-details::after,
+.ccontact-section-form .contact-form .form-group .form-control:focus,
+.pring-details-head span::before,
+.myservices-logo-cont span::before,
+.avatar_work_details span{
+	border-color: #0DCDBD;
+}
+.header-main ul li:hover a,
+.header-main ul li a.activeSitemenu,
+.myworking-process-content::after,
+.singlblogs-meta li a i,
+.comentreply-dec h5,
+.pagination-item li a,
+.pagination-item li a
+.tags-sc ul li:hover a,
+.archive-sc ul li:hover a,
+.recent-newsdetails h5,
+ ul.pointer li:hover a,
+label a,
+.form-group:focus label a,
+label a:hover,
+.blog-metatags li i,
+.breadcum-menu li a.active,
+.myworking-process-content-items-condition-details h5,
+.myresume-content-details h4,
+.ccontact-section-form .contact-form .form-group .form-control:focus::placeholder,
+.pring-details-head span,
+.tesimonials-user-review ul li,
+.myservices-logo-cont span,
+.interest-cont-item span,
+.avatar_workdec p,
+.btn-st:hover ,
+.avatar_work_details span,
+.avatar_location,
+.overly-social-link .social-overly .social-link-list .social-link-item:hover,
+ul.copyright-cong li a,
+ul.setlanguage-sittings li.language-list a,
+#about:target .icon-a,
+#resume:target .icon-r,
+#portfolio:target .icon-p,
+#blog:target .icon-b,
+#contact:target .icon-c {
+	color: #0DCDBD;
+}
+
+[data-tooltip]:after {
+	background-color: #0DCDBD;
+}
+.pagination-item li.active,
+.tags-sc ul li,
+.archive-sc ul li:hover::before,
+ul.pointer li:hover::before,
+.sidebarWid-title::before,
+.header-page:after,
+.header-page:before,
+ .header-box h2:before ,
+ .header-box h2:after,
+.burgerIndecator.open span::after,
+.burgerIndecator span::before,
+.my-working-process-shape-cont .dots::before,
+.my-working-process-shape-cont .dots::after,
+ .skill-box .skill-bar .skill-bar-in,
+.progress-circle-percent svg circle,
+.myresume-content-details::before,
+.myresume-content-details:hover:after,
+.spanExtra:before,
+.spanExtra::after,
+.filter span.active,
+.popbox-section .filter span:hover,
+.item-img:hover .item-img-overlay,
+.btn-st:after,
+.music-bg .lines span {
+	background: #0DCDBD;
+}
+
+ul.setlanguage-sittings li.language-list.active a {
+	border-bottom: 1px solid #0DCDBD;
+}
